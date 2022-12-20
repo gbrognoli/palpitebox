@@ -4,7 +4,10 @@ import '../css/styles.css'
 
 const MyApp = ({ Component, pageProps }) => {
   return (
-      <Component {...pageProps} />    
+      <div>
+        <h1 className='bg-red-600'>MyAPP</h1>
+      <Component {...pageProps} />
+      </div>    
   )
 }
 export default MyApp
